@@ -57,10 +57,27 @@
     width: 100%;
     height: 300px;
     overflow: hidden;
-    justify-content: start;
+    /* justify-content: start; */
     align-items: center;
     border-radius: 15px 15px 3px 3px;
     margin-top: 10px;
+}
+
+.overlay {
+    position: absolute;
+    background-position: 50%;
+    top: 30px;
+    width: 100%;
+    height: 277px;
+}
+
+.overlay:hover {
+    background-color: #0000003a;
+    background-image: url("./../../assets/svg/eye.svg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: pointer;
+    transition: 0.2s ease-in;
 }
 
 .title {
