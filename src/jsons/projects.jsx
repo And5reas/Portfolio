@@ -1,0 +1,13 @@
+import image from "./../assets/images/backgroundImage.jpg"
+import teste from "./../assets/images/teste.jpg"
+import MoreLife from "./../assets/images/MoreLife.jpg"
+
+export default [
+    {"id": 0, "image": MoreLife, "title": "MoreLife", "description": "Este projeto foi criado com o objeto de monitorar os batimentos cardíacos de pessoas que jogam, competitivamente video games, por muito tempo. Também, e não menos importante, para pessoas que tem problemas cardíacos e gostam jogar."},
+    {"id": 1, "image": teste, "title": "Title", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a ornare dolor, non bibendum dolor. Ut egestas vel lacus ut tempus. Nunc sit amet auctor nibh. Nulla vel faucibus mauris. Sed commodo turpis nec commodo commodo. Pellentesque quam quam, consectetur sed ipsum vel, accumsan tincidunt leo."},
+    {"id": 2, "image": image, "title": "Title", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a ornare dolor, non bibendum dolor. Ut egestas vel lacus ut tempus. Nunc sit amet auctor nibh. Nulla vel faucibus mauris. Sed commodo turpis nec commodo commodo. Pellentesque quam quam, consectetur sed ipsum vel, accumsan tincidunt leo."},
+    {"id": 3, "image": teste, "title": "Title", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a ornare dolor, non bibendum dolor. Ut egestas vel lacus ut tempus. Nunc sit amet auctor nibh. Nulla vel faucibus mauris. Sed commodo turpis nec commodo commodo. Pellentesque quam quam, consectetur sed ipsum vel, accumsan tincidunt leo."},
+    {"id": 4, "image": teste, "title": "Title", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a ornare dolor, non bibendum dolor. Ut egestas vel lacus ut tempus. Nunc sit amet auctor nibh. Nulla vel faucibus mauris. Sed commodo turpis nec commodo commodo. Pellentesque quam quam, consectetur sed ipsum vel, accumsan tincidunt leo."},
+    {"id": 5, "image": image, "title": "Title", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a ornare dolor, non bibendum dolor. Ut egestas vel lacus ut tempus. Nunc sit amet auctor nibh. Nulla vel faucibus mauris. Sed commodo turpis nec commodo commodo. Pellentesque quam quam, consectetur sed ipsum vel, accumsan tincidunt leo."},
+    {"id": 6, "image": image, "title": "Title", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a ornare dolor, non bibendum dolor. Ut egestas vel lacus ut tempus. Nunc sit amet auctor nibh. Nulla vel faucibus mauris. Sed commodo turpis nec commodo commodo. Pellentesque quam quam, consectetur sed ipsum vel, accumsan tincidunt leo."},
+];
