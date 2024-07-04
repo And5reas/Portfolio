@@ -1,13 +1,15 @@
-import MoreLife from "./../assets/images/MoreLife.jpg"
-import MazeCave from "./../assets/images/MazeCave.png"
-import Eclusa   from "./../assets/images/Eclusa.png"
+import MoreLife  from "./../assets/images/MoreLife.jpg"
+import MazeCave  from "./../assets/images/MazeCave.png"
+import Eclusa    from "./../assets/images/Eclusa.png"
+import Braco     from "./../assets/images/BracoRobo.png"
+import Merconomy from "./../assets/images/Merconomy.png"
 
 export default [
     {
         "id": 0, 
         "image": MoreLife, 
         "title": "MoreLife", 
-        "description": "Este projeto foi criado com o objeto de monitorar os batimentos cardíacos de pessoas que jogam, competitivamente video games, por muito tempo. Também, e não menos importante, para pessoas que tem problemas cardíacos e gostam jogar."
+        "description": "Este projeto foi criado com o objeto de monitorar os batimentos cardíacos de pessoas que jogam, competitivamente video games, por muito tempo. Também, e não menos importante, para pessoas que tem problemas cardíacos e gostam jogar. O programa foi desenvolvido em Python, utilizando Kivy como linguagem de criação de interfaces gráficas."
     },
     {
         "id": 1, 
@@ -18,7 +20,19 @@ export default [
     {
         "id": 2, 
         "image": Eclusa, 
-        "title": '"Elevador de Navios"', 
+        "title": "Sistema de Eclusas", 
         "description": "Maquete do funcionamento do canal do Panamá, projeto desenvolvido nas aulas de Arquitetura de Hardware, tem o intuíto de simular a elevação da água, rebaixamento da água e abertura da comporta, para a passagem do navio. O trabalho foi constituído por bombas d'água, confeccionadas do zero, impressões 3D, sensores de nível, mangueiras e um micro controlador ATmage328p, programado em Assembly"
+    },
+    {
+        "id": 3, 
+        "image": Braco, 
+        "title": "Braço Hidráulico",
+        "description": 'Este projeto deu bastante trabalho, se trata de um braço hidráulico controlado por gestos. A parte física do projeto foi feita de papelão, para suporta o mecanismo, seringas, que funcionam como pistões, e motores de torque para poder "pressurizar" a água e empurrar as seringas que estão nas articulações do braço, realizando os movimentos. O software utilizado no projeto para poder interpretar os gestos foi desenvolvido em Python, utilizando a biblioteca OpenCV.'
+    },
+    {
+        "id": 4, 
+        "image": Merconomy, 
+        "title": "Merconomy",
+        "description": "Criei este aplicativo nas aulas de React-Native da minha faculdade. A intenção desse aplicativo (ainda em desenvolvimento) é gerenciar o custo de dispesas de mercados, também irá contar com uma ferramenta que lê a etiqueta do produto, pela câmera, e cadastra as informações durante as compras do usuário. Além disso, terá uma aba social para compartilhar promoções de produtos em mercados. O BackEnd está sendo feito em python, utilizando a FrameWork Django."
     },
 ];
