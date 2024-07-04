@@ -4,6 +4,11 @@ I'm creating this portfolio just to share my work and projects with the world ðŸ
 
 ## I'm using React + Vite to create this project âœ¨
 
-### React Libraries
+### Vertions
 
-- Frame-motion
+- React ^18.3.1
+- Vite ^5.3.1
+
+### React Libraries and Versions
+
+- Frame-motion ^11.2.12
