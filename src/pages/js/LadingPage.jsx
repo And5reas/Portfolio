@@ -28,7 +28,6 @@ function LadingPage() {
             <div className={style.landingContainer1}>
                 <div className={style.header}>
                     <img src="./../../assets/images/websiteIcon.png" alt="Website icon" />
-                    <button className={style.downloadButton}>Download CV</button>
                 </div>
                 <div className={style.mainTitleContainer} >
                     <h1 className={style.mainTitle}>{sectionContent1.title}</h1>

@@ -1,7 +1,6 @@
-import image from "./../assets/images/backgroundImage.jpg"
-import teste from "./../assets/images/teste.jpg"
 import MoreLife from "./../assets/images/MoreLife.jpg"
 import MazeCave from "./../assets/images/MazeCave.png"
+import Eclusa   from "./../assets/images/Eclusa.png"
 
 export default [
     {
@@ -15,5 +14,11 @@ export default [
         "image": MazeCave, 
         "title": "MazeCave", 
         "description": "Criei este jogo na faculdade, mais especificamente, no meu 2° semestre. O objetivo deste jogo é responder perguntas de matemática enquanto resolve um labirinto. Tem a dificuldade de responder as perguntas e terminar o labirinto dentro de um tempo, é bem divertido de jogar, apesar da pouca complexidade, dito isso, este jogo foi pensado para crianças da terceira série do ensino fundamental."
+    },
+    {
+        "id": 2, 
+        "image": Eclusa, 
+        "title": '"Elevador de Navios"', 
+        "description": "Maquete do funcionamento do canal do Panamá, projeto desenvolvido nas aulas de Arquitetura de Hardware, tem o intuíto de simular a elevação da água, rebaixamento da água e abertura da comporta, para a passagem do navio. O trabalho foi constituído por bombas d'água, confeccionadas do zero, impressões 3D, sensores de nível, mangueiras e um micro controlador ATmage328p, programado em Assembly"
     },
 ];
