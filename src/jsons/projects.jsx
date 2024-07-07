@@ -1,4 +1,4 @@
-import MoreLife  from "./../assets/images/MoreLife.jpg"
+import MoreLife  from "./../assets/images/MoreLife.png"
 import MazeCave  from "./../assets/images/MazeCave.png"
 import Eclusa    from "./../assets/images/Eclusa.png"
 import Braco     from "./../assets/images/BracoRobo.png"
