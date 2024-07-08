@@ -46,10 +46,14 @@ function PortfolioItem({constraint, items=[]}) {
                         <div className={style.circle} style={{backgroundColor: "#F1FA8C"}} />
                         <div className={style.circle} style={{backgroundColor: "#FF5555"}} />
                     </motion.div>
+                    
                     <div className={style.cropImage}>
-                        <img src={item.image} alt="Portfolio image" />
-                        <div className={style.overlay} />
+                        <a className={style.link} href={item.link}>
+                            <img src={item.image} alt="Portfolio image" />
+                            <div className={style.overlay} />
+                        </a>
                     </div>
+                    
                     <h1 className={style.title}>{item.title}</h1>
                     <p className={style.description}>{item.description}</p>
                 </div>
