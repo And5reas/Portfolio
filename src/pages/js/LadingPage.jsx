@@ -8,8 +8,8 @@ function LadingPage() {
     const constraint = useRef(null)
 
     const sectionContent1 = {
-        title: "Fullstack Developer, Data Analyst & Designer",
-        subTitle: "Conectando tecnologia, análise de dados e criatividade "
+        title: "Fullstack Developer & Computer Engineer",
+        subTitle: "Portfólio de um Estudante de engenharia da computação"
     }
 
     const sectionContent2 = {
