@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import PortfolioItem from "../../contents/PortifolioItem/PortfolioItem";
-import DevicesAnimated from "../../contents/animations/LandingPageAnimation/Devices";
-import style from "./../css/LadingPage.module.css";
-import projects from "./../../jsons/projects.jsx"
+import PortfolioItem from "../../components/PortifolioItem/PortfolioItem.jsx";
+import DevicesAnimated from "../../components/animations/LandingPageAnimation/Devices.jsx";
+import style from "./LadingPage.module.css";
+import projects from "../../jsons/projects.jsx"
 
 function LadingPage() {
     const constraint = useRef(null)

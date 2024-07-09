@@ -7,7 +7,7 @@ import Merconomy from "./../assets/images/Merconomy.png"
 export default [
     {
         "id": 0,
-        "link": "", 
+        "link": "pages/MorelifePage/", 
         "image": MoreLife, 
         "title": "MoreLife", 
         "description": "Este projeto foi criado com o objeto de monitorar os batimentos cardíacos de pessoas que jogam, competitivamente video games, por muito tempo. Também, e não menos importante, para pessoas que tem problemas cardíacos e gostam jogar. O programa foi desenvolvido em Python, utilizando Kivy como linguagem de criação de interfaces gráficas."
