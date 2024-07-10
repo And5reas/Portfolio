@@ -48,7 +48,7 @@ function PortfolioItem({constraint, items=[]}) {
                     </motion.div>
                     
                     <div className={style.cropImage}>
-                        <a className={style.link} href={item.link}>
+                        <a className={style.link} href={item.link} target="_blanck" >
                             <img src={item.image} alt="Portfolio image" />
                             <div className={style.overlay} />
                         </a>
