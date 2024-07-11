@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1120.1357"
+   height="1120.1357"
+   viewBox="0 0 1120.1358 1120.1358"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="play.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     width="800px"
+     inkscape:zoom="0.33513189"
+     inkscape:cx="428.18962"
+     inkscape:cy="580.36852"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="15"
+     inkscape:window-y="198"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(160.06787,160.06787)">
+    <path
+       sodipodi:type="star"
+       style="fill:none;fill-opacity:1;stroke:#0f1516;stroke-width:113.636;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path846"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="107.46879"
+       sodipodi:cy="128.11652"
+       sodipodi:r1="467.88068"
+       sodipodi:r2="233.94035"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 575.34946,128.11652 -701.82101,405.19655 0,-810.39311 z"
+       inkscape:transform-center-x="-92.747832"
+       transform="matrix(0.79291871,0,0,0.70563259,266.03961,309.59681)"
+       inkscape:transform-center-y="2.97351e-06" />
+    <circle
+       style="fill:none;stroke:#0f1516;stroke-width:89.1416;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path849"
+       cx="400"
+       cy="400"
+       r="515.49707" />
+  </g>
+</svg>

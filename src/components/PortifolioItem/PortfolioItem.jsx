@@ -53,8 +53,10 @@ function PortfolioItem({constraint, items=[]}) {
                             <div className={style.overlay} />
                         </a>
                     </div>
-                    
-                    <h1 className={style.title}>{item.title}</h1>
+                    <div className={style.titleDiv}>
+                        <h1 className={style.title}>{item.title}</h1>
+                        <img className={style.linkImage} src={item.linkImage} alt="IconLink" />
+                    </div>
                     <p className={style.description}>{item.description}</p>
                 </div>
             </motion.div>
