@@ -40,6 +40,17 @@ function LadingPage() {
                 <div className={style.aboutContainer}>
                     <h1 className={style.aboutTitle}>{sectionContent2.title}</h1>
                     <h2 className={style.aboutDescription}>{sectionContent2.description}</h2>
+                    <div className={style.socialMedia}>
+                        <a href="https://github.com/and5reas" target="_blanck" >
+                            <img className={style.socialMediaImage} src="./../../assets/images/githubLogo.png" alt="My Github" />
+                        </a>
+                        <a href="https://www.youtube.com/@andreaswilliamporcel2042" target="_blanck" >
+                            <img className={style.socialMediaImage} src="./../../assets/images/youtubeLogo.png" alt="My Youtube" />
+                        </a>
+                        {/* <a href="https://www.instagram.com/and5reas_md/" target="_blanck" >
+                            <img className={style.socialMediaImage} src="./../../assets/images/instagramLogo.png" alt="My Instagram" />
+                        </a> */}
+                    </div>
                 </div>
                 <h3 className={style.aboutTitleTools}>{sectionContent2.titleTools}</h3>
                 <div className={style.toolsContainer}>
