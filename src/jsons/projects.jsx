@@ -26,7 +26,7 @@ export default [
     },
     {
         "id": 2,
-        "link": "",
+        "link": "https://youtu.be/ugYoCa_jXs0",
         "linkImage": Play,
         "image": Eclusa,
         "title": "Sistema de Eclusas",
@@ -34,7 +34,7 @@ export default [
     },
     {
         "id": 3,
-        "link": "", 
+        "link": "https://youtu.be/PxC6bvO2P40", 
         "linkImage": Play,
         "image": Braco, 
         "title": "Braço Hidráulico",
@@ -42,7 +42,7 @@ export default [
     },
     {
         "id": 4,
-        "link": "", 
+        "link": "https://github.com/And5reas/AppCompras", 
         "linkImage": GitHubLogo,
         "image": Merconomy, 
         "title": "Merconomy",
