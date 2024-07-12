@@ -8,12 +8,14 @@ function PortfolioItem({constraint, items=[]}) {
     const [moveContainer, setMoveContainer] = useState(false)
     const delays = []
 
+    const randCalc = () => Math.floor(Math.random() * 25)
+
     const itemList = items.map(item => {
 
-        let randTime = Math.floor(Math.random() * 25)
+        let randTime = randCalc()
 
         while (randTime in delays || randTime < 5) {
-            randTime = Math.floor(Math.random() * 15)
+            randTime = randCalc()
         }
         
         delays.push(randTime)
