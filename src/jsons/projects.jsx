@@ -64,7 +64,7 @@ export default [
         "linkImage": Play,
         "image": Eclusa,
         "title": "Sistema de Eclusas",
-        "description": <p>Maquete do funcionamento do canal do Panamá, projeto desenvolvido nas aulas de Arquitetura de Hardware, tem o intuíto de simular a elevação da água, rebaixamento da água e abertura da comporta, para a passagem do navio. O trabalho foi constituído por bombas d'água, confeccionadas do zero, impressões 3D, sensores de nível, mangueiras e um micro controlador ATmage328p, programado em Assembly</p>,
+        "description": <p>Maquete do funcionamento do canal do Panamá, projeto desenvolvido nas aulas de Arquitetura de Hardware, tem o intuíto de simular a elevação da água, rebaixamento da água e abertura da comporta, para a passagem do navio. O trabalho foi constituído por bombas d'água, confeccionadas do zero, impressões 3D, sensores de nível, mangueiras e um micro controlador ATmage328p, programado em Assembly. A escolha de materiais recicláveis para a realização do projeto foi uma decição consciente e alinhada com os princípios de sustentabilidade e respeito ao meio ambiente</p>,
         "assets": []
     },
     {
@@ -73,7 +73,7 @@ export default [
         "linkImage": Play,
         "image": Braco, 
         "title": "Braço Hidráulico",
-        "description": <p>Este projeto deu bastante trabalho. Trata-se de um braço hidráulico controlado por gestos. A parte física do projeto foi feita de papelão, para suportar o mecanismo, seringas que funcionam como pistões, e motores de torque para poder "pressurizar" a água e empurrar as seringas que estão nas articulações do braço, realizando os movimentos. O software utilizado no projeto para interpretar os gestos foi desenvolvido em Python, utilizando a biblioteca OpenCV.</p>,
+        "description": <p>Este projeto deu bastante trabalho. Trata-se de um braço hidráulico controlado por gestos. A parte física do projeto foi feita de papelão, com o objetivo de mostrar que não é preciso de materiais sofisticados para realizar um projeto ambicioso como este, seringas que funcionam como pistões, e motores de torque para poder "pressurizar" a água e empurrar as seringas que estão nas articulações do braço, realizando os movimentos. O software utilizado no projeto para interpretar os gestos foi desenvolvido em Python, utilizando a biblioteca OpenCV.</p>,
         "assets": []
     },
     {
