@@ -4,6 +4,14 @@ import DevicesAnimated from "../../components/animations/LandingPageAnimation/De
 import style from "./LadingPage.module.css";
 import projects from "../../jsons/projects.jsx"
 
+import WebsiteIcon    from "./../../assets/images/websiteIcon.png"
+import ProfilePicture from "./../../assets/svg/profilePicture.svg"
+import GithubIcon from "./../../assets/images/githubLogo.png"
+import YoutubeIcon from "./../../assets/images/youtubeLogo.png"
+import PythonLogo from "./../../assets/svg/pythonLogo.svg"
+import SqlLogo from "./../../assets/svg/sqlLogo.svg"
+import JavascriptLogo from "./../../assets/svg/javascriptLogo.svg"
+
 function LadingPage() {
 
     const constraint = useRef(null)
@@ -28,13 +36,13 @@ function LadingPage() {
         <div ref={constraint}>
             <div className={style.landingContainer1}>
                 <div className={style.header}>
-                    <img src="./../../assets/images/websiteIcon.png" alt="Website icon" />
+                    <img src={WebsiteIcon} alt="Website icon" />
                 </div>
                 <div className={style.mainTitleContainer} >
                     <h1 className={style.mainTitle}>{sectionContent1.title}</h1>
                     <h2 className={style.mainSubTitle}>{sectionContent1.subTitle}</h2>
                 </div>
-                <img src="./../../assets/svg/profilePicture.svg" alt="Profile picture" />
+                <img src={ProfilePicture} alt="Profile picture" />
                 <DevicesAnimated />
             </div>
             <div className={style.landingContainer2}>
@@ -43,10 +51,10 @@ function LadingPage() {
                     <h2 className={style.aboutDescription}>{sectionContent2.description}</h2>
                     <div className={style.socialMedia}>
                         <a href="https://github.com/and5reas" target="_blanck" >
-                            <img className={style.socialMediaImage} src="./../../assets/images/githubLogo.png" alt="My Github" />
+                            <img className={style.socialMediaImage} src={GithubIcon} alt="My Github" />
                         </a>
                         <a href="https://www.youtube.com/@andreaswilliamporcel2042" target="_blanck" >
-                            <img className={style.socialMediaImage} src="./../../assets/images/youtubeLogo.png" alt="My Youtube" />
+                            <img className={style.socialMediaImage} src={YoutubeIcon} alt="My Youtube" />
                         </a>
                         {/* <a href="https://www.instagram.com/and5reas_md/" target="_blanck" >
                             <img className={style.socialMediaImage} src="./../../assets/images/instagramLogo.png" alt="My Instagram" />
@@ -56,15 +64,15 @@ function LadingPage() {
                 <h3 className={style.aboutTitleTools}>{sectionContent2.titleTools}</h3>
                 <div className={style.toolsContainer}>
                     <div className={style.toolContainer}>
-                        <img className={style.iconTool} src="./../../assets/svg/pythonLogo.svg" alt="Icon" />
+                        <img className={style.iconTool} src={PythonLogo} alt="Icon" />
                         <p className={style.descriptionTool}>{sectionContent2.tools.python}</p>
                     </div>
                     <div className={style.toolContainer}>
-                        <img className={style.iconTool} src="./../../assets/svg/sqlLogo.svg" alt="Icon" />
+                        <img className={style.iconTool} src={SqlLogo} alt="Icon" />
                         <p className={style.descriptionTool}>{sectionContent2.tools.sql}</p>
                     </div>
                     <div className={style.toolContainer}>
-                        <img className={style.iconTool} src="./../../assets/svg/javascriptLogo.svg" alt="Icon" />
+                        <img className={style.iconTool} src={JavascriptLogo} alt="Icon" />
                         <p className={style.descriptionTool}>{sectionContent2.tools.javascript}</p>
                     </div>
                 </div>
