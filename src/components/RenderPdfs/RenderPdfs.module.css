@@ -1,0 +1,14 @@
+.container {
+    top: 0px;
+    left: 100%;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 9999;
+}
+
+.pdf {
+    pointer-events: none;
+    width: 1000px;
+    height: 700px;
+}

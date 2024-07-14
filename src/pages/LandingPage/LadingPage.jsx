@@ -5,6 +5,7 @@ import style from "./LadingPage.module.css";
 import projects from "../../jsons/projects.jsx"
 
 function LadingPage() {
+
     const constraint = useRef(null)
 
     const sectionContent1 = {
@@ -13,7 +14,7 @@ function LadingPage() {
     }
 
     const sectionContent2 = {
-        title: "Olá meu nome é Andreas William Porcel, prazer em te ter por aqui 😊",
+        title: "Olá meu nome é Andreas William Porcel, prazer em te ter por aqui :D",
         description: "Sou estudante de Engenharia da Computação na Universidade Santa Cecília, atualmente estou no 6º semestre. Este site foi criado com o intuito de divulgar meu trabalho, como uma espécie de portfólio. Amo o que faço e me entrego de corpo e alma a cada projeto. Espero que goste do meu trabalho!",
         titleTools: "Aqui estão algumas das muitas ferramentas que utilizo no meu dia a dia",
         tools: {

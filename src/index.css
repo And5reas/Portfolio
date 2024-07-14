@@ -3,3 +3,14 @@
   line-height: 1.5;
   font-weight: 400;
 }
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.label {
+  color: rgb(0, 21, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
