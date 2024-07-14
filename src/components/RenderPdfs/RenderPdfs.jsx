@@ -4,20 +4,20 @@ import style from "./RenderPdfs.module.css"
 import styleHeader from "./../PortifolioItem/PortfolioItem.module.css"
 import closeIcon from "./../../assets/svg/closeIcon.svg"
 
-function RenderPdfs({pdfs, constraint}) {
+function RenderPdfs({assets, constraint}) {
 
     const [moveContainer, setMoveContainer] = useState(false)
     const [closeBtn, setCloseBtn] = useState(false)
     
-    const pdfsList = pdfs.map(pdf => {
+    const pdfsList = assets.map(asset => {
 
         return (
             <motion.div 
-                key={pdf.id}
+                key={asset.id}
                 drag={moveContainer}
                 dragConstraints={constraint}
                 className={style.container}
-                style={{display: pdf.hidden}}
+                style={{display: asset.hidden}}
             >
                 <motion.div 
                     onHoverStart={() => setMoveContainer(true)} 
@@ -27,20 +27,20 @@ function RenderPdfs({pdfs, constraint}) {
                 >
                     <motion.div 
                         className={style.close + " close"}
-                        data={pdf.data}
+                        data={asset.data}
                         onHoverStart={() => setCloseBtn(true)}
                         onHoverEnd={() => setCloseBtn(false)}
                     >
                         <div className={styleHeader.circle} style={{backgroundColor: "#FF5555", marginRight: "15px"}} >
-                            <img data={pdf.data} style={{display: closeBtn ? "" : "none"}} src={closeIcon} alt="closeIcon" />
+                            <img data={asset.data} style={{display: closeBtn ? "" : "none"}} src={closeIcon} alt="closeIcon" />
                         </div>
                     </motion.div>
                 </motion.div>
                 <object 
                     className={style.pdf} 
-                    data={pdf.file} 
+                    data={asset.file} 
                     type="application/pdf" 
-                    style={{height: pdf.heigth, width: pdf.width}}
+                    style={{height: asset.heigth, width: asset.width}}
                 />
             </motion.div>
         );

@@ -14,21 +14,21 @@ function PortfolioItem({constraint, items=[]}) {
         const close  = document.getElementsByClassName("close")
         
         const updateHidden = e => {
-            let [projectId, pdfId] = e.target.getAttribute("data").split("/")
+            let [projectId, assetId] = e.target.getAttribute("data").split("/")
             const updatedProjects = projects.map(project => {
                 if (project.id == projectId){
-                    const updatedPdfs = project.pdfs.map(pdf => {
-                        if (pdf.id == pdfId) {
+                    const updatedAssets = project.assets.map(asset => {
+                        if (asset.id == assetId) {
                             return {
-                                ...pdf,
-                                hidden: pdf.hidden === "none" ? "" : "none",
+                                ...asset,
+                                hidden: asset.hidden === "none" ? "" : "none",
                             }
                         }
-                        return pdf;
+                        return asset;
                     })
                     return {
                         ...project,
-                        pdfs: updatedPdfs
+                        assets: updatedAssets
                     }
                 }
                 return project
@@ -110,7 +110,7 @@ function PortfolioItem({constraint, items=[]}) {
                     </div>
                 </motion.div>
                 <RenderPdfs 
-                    pdfs={project.pdfs}
+                    assets={project.assets}
                     constraint={constraint} 
                 />
             </motion.div>
