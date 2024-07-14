@@ -1,7 +1,6 @@
 .container {
-    align-self: center;
-    justify-self: center;
     position: absolute;
+    top: 490px;
     overflow: hidden;
     border-radius: 20px;
     z-index: 9999;

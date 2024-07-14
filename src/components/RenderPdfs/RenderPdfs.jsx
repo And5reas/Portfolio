@@ -27,6 +27,7 @@ function RenderPdfs({pdfs, constraint}) {
                 >
                     <motion.div 
                         className={style.close + " close"}
+                        data={pdf.data}
                         onHoverStart={() => setCloseBtn(true)}
                         onHoverEnd={() => setCloseBtn(false)}
                     >
@@ -37,7 +38,7 @@ function RenderPdfs({pdfs, constraint}) {
                 </motion.div>
                 <object 
                     className={style.pdf} 
-                    data={pdf.file + "#toolbar=0"} 
+                    data={pdf.file} 
                     type="application/pdf" 
                     style={{height: pdf.heigth, width: pdf.width}}
                 />

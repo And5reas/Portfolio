@@ -17,10 +17,10 @@ export default [
         "linkImage": GitHubLogo,
         "image": MoreLife, 
         "title": "MoreLife", 
-        "description": <p>Este projeto foi criado com o objeto de monitorar os batimentos cardíacos de pessoas que jogam, competitivamente video games, por muito tempo. Também, e não menos importante, para pessoas que tem problemas cardíacos e gostam de jogar. O programa foi desenvolvido em Python, utilizando Kivy como linguagem de criação de interfaces gráficas. Este projeto preimou a mim e a minha equipa com primeiro lugar, e <a className="label" data="0/Mensao" >Mensão Horrosa</a>, na 15° editação do COBRIC (Congresso de Iniciação Científica), e ficamos entre os 10 melhores na 23° edição do CONIC (Congresso Nacional de Iniciação Científica). Além disso, este projeto foi públicado na revista <a className="label" data="0/Revista">CREA-SP</a></p>,
+        "description": <p>Este projeto foi criado com o objeto de monitorar os batimentos cardíacos de pessoas que jogam, competitivamente video games, por muito tempo. Também, e não menos importante, para pessoas que tem problemas cardíacos e gostam de jogar. O programa foi desenvolvido em Python, utilizando Kivy como linguagem de criação de interfaces gráficas. Este projeto preimou a mim e a minha equipa com primeiro lugar, e <a className="label" data="0/Mensao" >Mensão Horrosa</a>, na 15° editação do COBRIC (Congresso de Iniciação Científica), e ficamos entre os 10 melhores na 23° edição do CONIC (Congresso Nacional de Iniciação Científica). Além disso, este projeto foi públicado na revista <a className="label" data="0/Revista">CREA-SP</a>.</p>,
         "pdfs": [{
                 "id": "Mensao",
-                "file": MensaoHonrosa,
+                "file": MensaoHonrosa + "#toolbar=0",
                 "heigth": "",
                 "width": "",
                 "hidden": "none",
@@ -28,7 +28,7 @@ export default [
             },
             {
                 "id": "Revista",
-                "file": RevistaCREA,
+                "file": RevistaCREA  + "#toolbar=0",
                 "heigth": "1020px",
                 "width": "790px",
                 "hidden": "none",
