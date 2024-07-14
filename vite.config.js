@@ -9,6 +9,7 @@ const outDir = resolve(__dirname, "dist");
 export default defineConfig({
   root,
   plugins: [react()],
+  base: "/Portfolio",
   build: {
     outDir,
     emptyOutDir: true,
