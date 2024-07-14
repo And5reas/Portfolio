@@ -1,6 +1,6 @@
 .container {
-    top: 0px;
-    left: 100%;
+    align-self: center;
+    justify-self: center;
     position: absolute;
     overflow: hidden;
     border-radius: 20px;
@@ -11,4 +11,10 @@
     pointer-events: none;
     width: 1000px;
     height: 700px;
+}
+
+.close {
+    display: flex;
+    cursor: pointer;
+    padding: 13px 0;
 }

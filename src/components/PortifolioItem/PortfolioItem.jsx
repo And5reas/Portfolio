@@ -11,6 +11,7 @@ function PortfolioItem({constraint, items=[]}) {
 
     useEffect(() => {
         const labels = document.getElementsByClassName("label")
+        const close  = document.getElementsByClassName("close")
         
         const updateHidden = e => {
             let [projectId, pdfId] = e.target.getAttribute("data").split("/")
@@ -35,6 +36,10 @@ function PortfolioItem({constraint, items=[]}) {
             setProjects(updatedProjects)
         }
 
+        for (let i = 0 ; i < close.length ; i++){
+            close[i].addEventListener("click", updateHidden)
+        }
+
         for (let i = 0 ; i < labels.length ; i++){
             labels[i].addEventListener("click", updateHidden)
         }
@@ -42,6 +47,9 @@ function PortfolioItem({constraint, items=[]}) {
         return () => {
             for (let i = 0 ; i < labels.length ; i++){
                 labels[i].removeEventListener("click", updateHidden)
+            }
+            for (let i = 0 ; i < close.length ; i++){
+                close[i].removeEventListener("click", updateHidden)
             }
         }
     }, [projects])
@@ -123,6 +131,7 @@ PortfolioItem.proptype = {
             file: PropTypes.string,
             heigth: PropTypes.string,
             width: PropTypes.string,
+            data: PropTypes.string,
         }))
     }))
 };

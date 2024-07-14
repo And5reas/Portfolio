@@ -2,10 +2,12 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import style from "./RenderPdfs.module.css"
 import styleHeader from "./../PortifolioItem/PortfolioItem.module.css"
+import closeIcon from "./../../assets/svg/closeIcon.svg"
 
 function RenderPdfs({pdfs, constraint}) {
 
     const [moveContainer, setMoveContainer] = useState(false)
+    const [closeBtn, setCloseBtn] = useState(false)
     
     const pdfsList = pdfs.map(pdf => {
 
@@ -23,8 +25,15 @@ function RenderPdfs({pdfs, constraint}) {
                     className={styleHeader.header} 
                     style={{height: "40px"}}
                 >
-                    <div className={styleHeader.circle} style={{backgroundColor: "#50FA7B"}} />
-                    <div className={styleHeader.circle} style={{backgroundColor: "#FF5555", marginRight: "15px"}} />
+                    <motion.div 
+                        className={style.close + " close"}
+                        onHoverStart={() => setCloseBtn(true)}
+                        onHoverEnd={() => setCloseBtn(false)}
+                    >
+                        <div className={styleHeader.circle} style={{backgroundColor: "#FF5555", marginRight: "15px"}} >
+                            <img data={pdf.data} style={{display: closeBtn ? "" : "none"}} src={closeIcon} alt="closeIcon" />
+                        </div>
+                    </motion.div>
                 </motion.div>
                 <object 
                     className={style.pdf} 

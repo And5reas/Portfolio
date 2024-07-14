@@ -23,14 +23,16 @@ export default [
                 "file": MensaoHonrosa,
                 "heigth": "",
                 "width": "",
-                "hidden": "none"
+                "hidden": "none",
+                "data": "0/Mensao"
             },
             {
                 "id": "Revista",
                 "file": RevistaCREA,
                 "heigth": "1020px",
                 "width": "790px",
-                "hidden": "none"
+                "hidden": "none",
+                "data": "0/Revista"
             }]
     },
     {
