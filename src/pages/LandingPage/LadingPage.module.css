@@ -175,3 +175,74 @@
         padding: 80px 100px;
     }
 }
+
+@media only screen and (max-width: 764px) {
+    .header > img {
+        width: 80px;
+    }
+    
+    .mainTitle {
+        font-size: 24px;
+    }
+
+    .mainSubTitle {
+        font-size: 16px;
+        margin: 10px 0 0 0;
+    }
+
+    .mainTitleContainer {
+        margin: 30px 0 50px 0;
+    }
+
+    .profileContainer {
+        width: 250px;
+        height: 250px;
+    }
+
+    .landingContainer1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .aboutTitle {
+        font-size: 20px;
+    }
+
+    .aboutDescription {
+        font-size: 18px;
+    }
+
+    .aboutContainer {
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    }
+
+    .aboutTitleTools {
+        font-size: 18px;
+        width: auto;
+        background-image: linear-gradient(62deg, #c37efb 0%, #68f7df 100%);
+        box-shadow: 5px 5px 5px 1px black;
+    }
+
+    .toolsContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .toolContainer {
+        width: auto;
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    }
+
+    .landingContainer2 {
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(62deg, white 0%, white 100%);
+        background-color: white;
+    }
+
+    .landingContainer3 {
+        margin: 0;
+        padding: 0;
+    }
+}

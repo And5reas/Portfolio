@@ -115,3 +115,9 @@
     padding: 0px 10px 10px 10px;
     font-size: 18px;
 }
+
+@media only screen and (max-width: 764px) {
+    .container {
+        width: 100%;
+    }
+}

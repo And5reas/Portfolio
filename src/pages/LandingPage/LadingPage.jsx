@@ -45,7 +45,7 @@ function LadingPage() {
                 <div className={style.profileContainer}>
                     <img className={style.profileImg} src={ProfilePicture} alt="Profile picture" />
                 </div>
-                <DevicesAnimated />
+                {window.innerWidth < 764 ? null : <DevicesAnimated />}
             </div>
             <div className={style.landingContainer2}>
                 <div className={style.aboutContainer}>
