@@ -5,7 +5,7 @@ import style from "./LadingPage.module.css";
 import projects from "../../jsons/projects.jsx"
 
 import WebsiteIcon    from "./../../assets/images/websiteIcon.png"
-import ProfilePicture from "./../../assets/svg/profilePicture.svg"
+import ProfilePicture from "./../../assets/images/profilePicture.jpg"
 import GithubIcon from "./../../assets/images/githubLogo.png"
 import YoutubeIcon from "./../../assets/images/youtubeLogo.png"
 import PythonLogo from "./../../assets/svg/pythonLogo.svg"
@@ -23,7 +23,7 @@ function LadingPage() {
 
     const sectionContent2 = {
         title: "Olá meu nome é Andreas William Porcel, prazer em te ter por aqui :D",
-        description: "Sou estudante de Engenharia da Computação na Universidade Santa Cecília, atualmente estou no 6º semestre. Este site foi criado com o intuito de divulgar meu trabalho, como uma espécie de portfólio. Amo o que faço e me entrego de corpo e alma a cada projeto. Espero que goste do meu trabalho!",
+        description: "Sou estudante de Engenharia da Computação na Universidade Santa Cecília, atualmente estou no 7º semestre. Este site foi criado com o intuito de divulgar meu trabalho, como uma espécie de portfólio. Amo o que faço e me entrego de corpo e alma a cada projeto. Espero que goste do meu trabalho!",
         titleTools: "Aqui estão algumas das muitas ferramentas que utilizo no meu dia a dia",
         tools: {
             python: "Utilizo Python para diversas tarefas, pois sou particularmente apaixonado por esta linguagem. Ela é fácil de criar projetos e possui um grande suporte da comunidade. Já desenvolvi projetos com inteligência artificial utilizando Python, mas principalmente a utilizo para tratamento de dados.",
@@ -42,7 +42,9 @@ function LadingPage() {
                     <h1 className={style.mainTitle}>{sectionContent1.title}</h1>
                     <h2 className={style.mainSubTitle}>{sectionContent1.subTitle}</h2>
                 </div>
-                <img src={ProfilePicture} alt="Profile picture" />
+                <div className={style.profileContainer}>
+                    <img className={style.profileImg} src={ProfilePicture} alt="Profile picture" />
+                </div>
                 <DevicesAnimated />
             </div>
             <div className={style.landingContainer2}>

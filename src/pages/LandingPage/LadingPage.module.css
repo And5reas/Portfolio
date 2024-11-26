@@ -34,6 +34,24 @@
     margin: 5px;
 }
 
+.profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: 10px 10px 15px 1px rgb(53, 53, 53);
+    margin-bottom: 60px;
+}
+
+.profileImg {
+    width: 320px;
+    margin-bottom: 70px;
+    margin-left: 10px;
+}
+
 .landingContainer2 {
     display: flex;
     flex-direction: column;
